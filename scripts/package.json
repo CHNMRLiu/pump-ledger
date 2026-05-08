@@ -1,0 +1,13 @@
+{
+  "name": "pump-ledger-scripts",
+  "version": "1.0.0",
+  "description": "水泵厂台账数据导入脚本",
+  "scripts": {
+    "import": "node import-data.js",
+    "import:append": "node import-data.js --append"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
